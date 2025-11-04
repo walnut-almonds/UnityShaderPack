@@ -1,25 +1,47 @@
-# 🎨 CelShaded Advanced Shader
+# Unity Shader Pack# 🎨 CelShaded Advanced Shader
 
-[中文](README_zh-TW.md) | [English](README.md) | [日本語](README_ja.md)
 
----
 
-一個功能完整、極度可自訂的賽璐璐風格（Cel-Shaded/Toon）Unity Shader，擁有超過 **150 個參數**，適用於各種 NPR（非真實感渲染）需求。
+自訂 Unity 著色器（Built-in Render Pipeline）集合與自動生成範例材質的編輯器工具。[中文](README_zh-TW.md) | [English](README.md) | [日本語](README_ja.md)
 
-![Version](https://img.shields.io/badge/version-1.0-blue)
-![Unity](https://img.shields.io/badge/Unity-2019.4%2B-green)
-![License](https://img.shields.io/badge/license-MIT-orange)
 
----
 
-## ✨ 主要特色
+## 包含的著色器---
+
+- Sand（程序性顆粒）
+
+- Metal（PBR）一個功能完整、極度可自訂的賽璐璐風格（Cel-Shaded/Toon）Unity Shader，擁有超過 **150 個參數**，適用於各種 NPR（非真實感渲染）需求。
+
+- Plastic
+
+- Emissive![Version](https://img.shields.io/badge/version-1.0-blue)
+
+- Glass（折射、IOR）![Unity](https://img.shields.io/badge/Unity-2019.4%2B-green)
+
+- Gemstone（IOR、色散）![License](https://img.shields.io/badge/license-MIT-orange)
+
+
+
+## 使用方式---
+
+1. 將此資料夾/套件匯入您的 Unity 專案（Built-in pipeline）。
+
+2. 在 Unity Editor 中，使用 `Tools > Create Example Materials` 在 `Assets/Materials` 中自動生成範例材質。## ✨ 主要特色
+
+3. 將材質指定給場景中的物件。
 
 ### 🎯 核心功能
-- ✅ **多層階梯陰影** - 支援 1-10 層可調陰影
-- ✅ **輪廓線渲染** - 可自訂寬度、顏色、距離淡出
+
+## 需求- ✅ **多層階梯陰影** - 支援 1-10 層可調陰影
+
+- Unity 2019.4+（Built-in Render Pipeline）- ✅ **輪廓線渲染** - 可自訂寬度、顏色、距離淡出
+
 - ✅ **多貼圖疊加** - 3 層主貼圖，支援多種混合模式
-- ✅ **靈活的光照控制** - 完整的亮度、飽和度、色調調整
-- ✅ **MatCap 支援** - 3 層 MatCap，快速添加環境反射
+
+## 授權- ✅ **靈活的光照控制** - 完整的亮度、飽和度、色調調整
+
+MIT- ✅ **MatCap 支援** - 3 層 MatCap，快速添加環境反射
+
 - ✅ **法線貼圖** - 3 層法線貼圖混合
 - ✅ **高級高光** - 包含各向異性高光支援
 - ✅ **雙層 Rim Light** - 獨立控制的邊緣光
